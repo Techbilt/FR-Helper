@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Flight Rising Helper.exe" version="2.0.0.4" publicKeyToken="2023107f0e9855ab" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Images\prowl_mate_pic_FsI_12.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Flight Rising Helper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Flight Rising Helper.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Flight Rising Helper.exe" size="410072">
+      <assemblyIdentity name="Flight Rising Helper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5Ipdh+48Dj0j5WVWRbRiA1euSN58FToCgbilP7eQCdY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Flight Rising Helper.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\ancient.png" size="2272">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>g7as2t/f34IFO2bQdK5fj3TslLRCeDk60utnt7b2mOE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\banescale.png" size="2229">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nz6hz/tPeo3OHhH8R2qR9LYh/lgwJXbtubJSzkedwhY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\bogsneak.png" size="2033">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6prF77Ib3sj2n7MEN6d/04NLOJ90QFGk6LNIvwMgWXs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\coatl.png" size="2106">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>O6sJgjUbq8E3VWKlyR3FR6L+021gBZB/2l/Uq1OR0Jc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\fae.png" size="2242">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DSecp16AZAXn9mMyuo0+rfNRT8/PguMlg1fcogI9VLs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\gaoler.png" size="2244">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YSpJ1Sumfit0h0QQl23hmuEX5z1t6Vl6xCPVpwx41G0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\guardian.png" size="2135">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oBvA4S/eyBWFx4ZWIowyzFY5yAKkqhwRH/pnwhx7cUg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\imperial.png" size="2037">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>m9BDIDV/4v3eYGzyP4pnQM/rFHyfGZBwZ3BEDgU/+z0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\mirror.png" size="2177">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v5wmXAX8MgBEdS1ehqcRNsCYx56EVz+iMbwBJ78/vL4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\nocturne.png" size="2199">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uX0P6qBN3JAyowi0S6h9b5rSN9Mu/49PCRk/eRyXITk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\pearlcatcher.png" size="2182">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IwtjeWAnuYAhG9drefN9akeEObi9DszXHgtDb190srI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\ridgeback.png" size="2126">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UBuNKnBx2xVgk+KfCyiyD1Ew32A+YOLoHp9SZtLEpU4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\skydancer.png" size="2105">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8XtO6uUP41KxaPEqkqeylJ7Wq8m65uktwer5nTglhWY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\snapper.png" size="2134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VinJtx/BhvgDKaF85KY7h5iDckcPlXquzH59sUrxuWc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\spiral.png" size="1955">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>43fsnM+IvEvmSO8eM/2KUSGUGmow24DvqLDL0Tm+8zI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\tundra.png" size="2283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Bw0PedVVFNfkZfLcOLg4rBWSccsq4TlhXQbeGd2HGaw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\veilspun.png" size="2103">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rL0uHvred6SrqVIU/24SR93R+0Ro3135wvgPciqvPNY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\breeds\wildclaw.png" size="2136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vYI+F58S4KshrgYn4I3QirJX/O0HnhpiNXnXB7TAC1g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\cancel.png" size="16667">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WOvb8NBDNcuiMqA1E2BGoYq8i465tMUeDWg6tn+iZk4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\delete.png" size="1062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RsiUVp0Z9xXO6WrYkEV6NNLTt0c6AXQ5TnjbMHlWwxQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\female.png" size="1669">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vr2z5gAdIrSTf2wKGi5r8plYojkNoBxucE8vsuxfA+Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\flights\arcane_rune.png" size="2106">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SbT66cphQ6AJyJ50d/adUKMIpdGfwDIwGUnBVt/tq1s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\flights\earth_rune.png" size="2007">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9CYGu8ynKWppUkicC6ZZvTYB7boRgtSTd4Q7addn0tQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\flights\fire_rune.png" size="1887">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0G7nEAsXBFrtru0jVXWVq/1Te8Xp/xS42GXHCFJ/3fM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\flights\ice_rune.png" size="1957">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rBR3763j0mt3Z8UtxnTXUI3dguV75gd8uwOh792E4E8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\flights\light_rune.png" size="1855">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D0kSRQgdqr3R/Q2o1K9LxGTALqe3wc87dl3YjSA+ako=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\flights\lightning_rune.png" size="1955">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YOZZkbf7HNOZjb3vJiDHExEJLdLEUodEMsrLfV04SlI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\flights\nature_rune.png" size="2215">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>y+6qyuA7yLc2xO7c+BmbG4OUTg2ebirEdsv9kmFNg/0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\flights\plague_rune.png" size="2019">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yaxbRuf5qf2hunp5MVi73sy13CfqjVm53oqAcuiPHzY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\flights\shadow_rune.png" size="2061">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zp6vsT83MPAs33r0q32Ypbv3wyHJE9joKDQhEDcGTFI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\flights\water_rune.png" size="1996">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2R3yTUEkqq154X/4GI2r4dZArC7rI+8pllAZMrV2mAc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\flights\wind_rune.png" size="1957">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Xkbt2dI5jxp3sKtr03rf3g3Q3JlIL8VVMN3paXl/wq4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\male.png" size="1698">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jRmo3zTB+WPKbTipoYAPCR5CMnbQ/LMNq47E8xY7dx8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\primary-gene.png" size="1416">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>igEsPqk6SctSIXNSdYTr++KPFjMBi6iDzGKcWnPvhYk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\prowl_mate_pic_FsI_12.ico" size="73522">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GE8fLDErXLkJm2/yr29AXd53ouGJP+fBSrWXzGLbUyg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\secondary-gene.png" size="1446">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uulfuhI2Xw5KwzJZVNHBNgFG1r7Pc/B1cbSLnaK+gP4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\tertiary-gene.png" size="1397">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F14cbJVxUyNN3oodqWrE/tZrE6Fc6sFKp5zFKtxRgRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-C2J8AGK\Katy" issuerKeyHash="7822f1ff6b681b0cb4f0658d3d5b39a4fbce1e1e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4FDVNYwsVCC/F91bJOAloHj/Cxmp7bdQN8cYlrQxjxM=</DigestValue></Reference></SignedInfo><SignatureValue>tftW5/CKCttf5SMRhUIVkO2HRqnMiwZs/AOwMDAZ/TJ5l3W+hfJjwJ/8i9ox7k5KVq/6wkYqTthkWkwXCkwlx5NuF913sFnyuNZPRGumOcdzlW1sYkkNUevUl9CrFpy+evp/HA+p4hS3IrkSjhyYz58VrjHeNem1jahAm3EIpjE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wylWgjWSeit947okNcRBKTwUIqK6VUIShcBFp6MYn8Q4mce7THUR1OMOUfmU57mSJK0MfOzvq8cfLN+6AjYml1vWEOd7/I9bxcrCKhMvaOJSg5FJzTZI22XvAzbPPzQ2y/7uvWdsB+r5iXQhLYr+QpmGqs8v7ShhX/P42GCsfdk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="138f31b49618c73750b7eda9190bff78a025e0245bdd17bf20542c8c35d550e0" Description="" Url=""><as:assemblyIdentity name="Flight Rising Helper.exe" version="2.0.0.4" publicKeyToken="2023107f0e9855ab" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-C2J8AGK\Katy</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GqEFpaT9HSicHx1Z3EJkLQmJAwPbjJh/R4F6K3PZ2VE=</DigestValue></Reference></SignedInfo><SignatureValue>uCe8Di7EIL7zNzw+VPTUp6H6BAq0BFkqaYnv5dIwUspfHjQassXrk2Ocg+nDe/73j5Mde0Vj2RtDMqwbVubsnvsLHccDk1XyiWfk0+kHy9KGxRTChYy3YLkxE20bhNgzEDvVkfqF7QQzVUptHdJEJvMwOdTwO7IJARUqh7EoRdA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wylWgjWSeit947okNcRBKTwUIqK6VUIShcBFp6MYn8Q4mce7THUR1OMOUfmU57mSJK0MfOzvq8cfLN+6AjYml1vWEOd7/I9bxcrCKhMvaOJSg5FJzTZI22XvAzbPPzQ2y/7uvWdsB+r5iXQhLYr+QpmGqs8v7ShhX/P42GCsfdk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQHx2HcqZ41JBJ05oBzn6fRDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEMAMgBKADgAQQBHAEsAXABLAGEAdAB5MB4XDTIxMDYxMzEyMTk1MloXDTIyMDYxMzE4MTk1MlowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBDADIASgA4AEEARwBLAFwASwBhAHQAeTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwylWgjWSeit947okNcRBKTwUIqK6VUIShcBFp6MYn8Q4mce7THUR1OMOUfmU57mSJK0MfOzvq8cfLN+6AjYml1vWEOd7/I9bxcrCKhMvaOJSg5FJzTZI22XvAzbPPzQ2y/7uvWdsB+r5iXQhLYr+QpmGqs8v7ShhX/P42GCsfdkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCUkzSjTM88B5/wB01dzDE6o53IuroUnkpDjebBEcCrSZCnDdb7JV0dWUcnsaHPP6pIm+c9HPAPCnl3yjwb0S1ffpgGTNmnPUzVzxIAHoPLL6vN2enaIbooAJs6gJN9MSH0OobnVbcTwyJ46ayUFLKkrGEYTjl9kk2mlf3kOGStmg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
